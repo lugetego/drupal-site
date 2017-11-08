@@ -9,11 +9,9 @@
 
 # Ignore core when managing all of a project's dependencies with Composer
 # including Drupal core.
-<<<<<<< HEAD
 core
 =======
-# core
->>>>>>> 534daaa3ca794578b6a63ddb1d439cbcd043e463
+core
 
 # Core's dependencies are managed with Composer.
 vendor
@@ -41,12 +39,8 @@ sites/simpletest
 
 # Ignore SimpleTest multi-site environment.
 # simpletest
-<<<<<<< HEAD
 
 # Composer PHAR
 /composer.phar
 /drupal.phar
 .idea/
-
-=======
->>>>>>> 534daaa3ca794578b6a63ddb1d439cbcd043e463
