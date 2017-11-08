@@ -1,0 +1,9 @@
+name: ccm_theme
+type: theme
+description: Theme Centro de Ciencias Matematicas UNAM
+package: Other
+core: 8.x
+libraries:
+  - ccm_theme/google-font
+  - ccm_theme/global-styling
+  - ccm_theme/js-footer

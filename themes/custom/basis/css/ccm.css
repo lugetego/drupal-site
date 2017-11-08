@@ -1,0 +1,356 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+.top_bar {
+    min-height: 45px;
+    background-color: #001729;
+}
+
+.social {
+    float: right;
+    height: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.twitter {
+    color: #1DA1F2;
+}
+
+.facebook {
+    color: #3B5998;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 14px;
+  width: 14px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook-f::before, .fa-facebook::before {
+    content: "";
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter::before {
+    content: "";
+}
+
+.fa-twitter {
+    background: #55acee none repeat scroll 0 0;
+    color: white;
+}
+
+.navbar {
+    border-bottom: 5px solid #ffc946;
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+
+.navbar-brand {
+    height: 95px;
+}
+
+.nav > li > a {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.navbar-toggle {
+    padding: 5px;
+    margin: 20px 10px 10px 0;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+    background-color: #eee;
+    text-decoration: none;
+    color: #ef4e32;
+}
+
+.footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.footer-content {
+    padding: 40px;
+}
+
+.logo-footer {
+    padding: 20px;
+}
+
+
+/*AQUI EMPIEZAN LOS NUEVOS ESTILOS :)*/
+
+
+h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #001729;
+    text-decoration: none;
+}
+
+a {
+    color: #0E2648;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    float: right;
+    margin: 0;
+}
+
+/*PARA EL BACKGROUD O BANNER PRINCIPAL ES IMPORTANTE CONSERVAR ESTAS PROPIEDADES quitar padding*/
+.background-cover{
+    margin-right: auto;
+    margin-left: auto;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'montserrat';
+    src:  url('myfont.woff2') format('woff2'),
+    url('myfont.woff') format('woff');
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Titulos-noticias-up {
+    padding-top: 15px;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: #f56d61;
+}
+
+.Titulos-noticias {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #f56d61;
+}
+
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.front-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-home.png") no-repeat scroll center bottom / cover ;
+    border: medium none;
+    color: #fff;
+    height: 100%;
+    min-height: 420px;
+}
+
+.personal-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-personal.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.personal-banner-single {
+    background: #253340 url("/themes/custom/basis/img/banner-personal-single.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.divulgacion-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-divulgacion.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.acercade-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-acercade.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.investigacion-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-investigacion.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.contacto-banner {
+    background: #253340 url("/themes/custom/basis/img/banner-contacto.png") no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.banner-secundario {
+    background: #253340 no-repeat scroll center top / cover ;
+    min-height: 320px;
+}
+
+.areas img {
+    padding: 10px;
+}
+
+/*Unidades*/
+
+.title-unidad {
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #f56d61;
+}
+
+.subtitle-unidad {
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: center;
+    color: #f56d61;
+}
+
+/*Nuevos Eventos*/
+
+.Titulos-Noticias {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: center;
+    color: #154679;
+}
+
+.Texto-Noticias {
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    color: #565656;
+}
+
+.Subtitulos {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #8d0e12;
+}
+
+.Titulos{
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    color: #8d0e12;
+}
+
+
+.subtitulo {
+    font-size: 18px;
+    font-weight: normal;
+    text-align: center;
+    color: #8d0e12;
+}
+
+.menu-lateral {
+    background: ##0E2648;
+}
+
+.navbar-lateral {
+    background: #0e2648 none repeat scroll 0 0;
+    border-color: #080808;
+    color: white;
+    padding-top: 120px;
+}
+
+.navbar-lateral a {
+    color: #ccc;
+    font-size: 16px;
+    display: block;
+}
+
+.navbar-lateral a:hover, a:focus {
+    color: #3c3c3c;
+    text-decoration: underline;
+    background-color: #FFC946;
+}
+
+.navbar-lateral li {
+    display: block;
+    width: 100%;
+}
+
+.title-container .heading, .section-title .heading {
+    color: #001729;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 35px;
+    margin-top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.event-title {
+    color: #0c518a;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+p {
+    color: #555;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.subtitulo {
+    color: #8d0e12;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+#divulgacion-oferta {
+    background: #99d4a5 none repeat scroll 0 0;
+    padding: 30px 0;
+    color: #444;
+}
+
+#divulgacion-general {
+    background: #fff none repeat scroll 0 0;
+    padding: 30px 0;
+}
+
+#divulgacion-talleres {
+    background: cornflowerblue none repeat scroll 0 0;
+    padding: 30px 0;
+    color: white;
+}
+
+#divulgacion-contacto {
+    background: #ccc none repeat scroll 0 0;
+    padding: 30px 0;
+}
+
+.talleres {
+    font-weight: bold;
+    color: #555;
+    font-size: 16px;
+}
+
+.personal {
+    padding: 10px;
+}
+
+/* Responsive Images */
+img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
+
+.logo {
+    height: 100%;
+}
+

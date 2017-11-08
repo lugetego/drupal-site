@@ -1,0 +1,27 @@
+google-font:
+  remote: https://fonts.googleapis.com/
+  version: 1.x
+  license:
+    name: MIT
+    url: https://fonts.googleapis.com/
+    gpl-compatible: true
+  css:
+    theme:
+      https://fonts.googleapis.com/css?family=Roboto:700,400&amp;subset=cyrillic,latin,greek,vietnamese: {}
+
+
+global-styling:
+  version: 1.x
+  css:
+    theme:
+      assets/bootstrap/css/bootstrap.min.css: {}
+      assets/mobirise/css/style.css: {}
+      assets/mobirise/css/mbr-additional.css: {}
+
+js-footer:
+  js:
+    assets/jquery/jquery.min.js: {}
+    assets/bootstrap/js/bootstrap.min.js: {}
+    assets/smooth-scroll/SmoothScroll.js: {}
+    assets/jarallax/jarallax.js: {}
+    assets/mobirise/js/script.js: {}

@@ -1,0 +1,18 @@
+name: Basis
+type: theme
+base theme: false
+Description: "A modern & reponsive Drupal 8 CCM Theme"
+package: custom
+core: 8.x
+
+libraries: 
+- basis/global-styling
+- basis/global-scripts
+
+regions:
+  headline: headline
+  header: header
+  content: content
+  sidebar: sidebar
+  fluid: fluid
+  footer: Footer 

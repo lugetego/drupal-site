@@ -1,0 +1,13 @@
+{% block content %}
+  {% if site_logo %}
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+      <span class="sr-only">Toggle navigation</span>
+      Menu
+    </button>
+    <a class="navbar-brand" href="{{ path('<front>') }}" title="{{ site_name }}" rel="home">
+      <img src="{{ site_logo }}" alt="{{ site_name }}" />
+    </a>
+  </div>
+  {% endif %}
+{% endblock %}

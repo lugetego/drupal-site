@@ -1,0 +1,64 @@
+<div class="top_bar">
+    <div class="container">
+        <a class="btn-circle btn-social-icon btn-sm btn-twitter social">
+            <span class="fa fa-twitter"></span>
+        </a>
+        <a class="btn-circle btn-social-icon btn-sm btn-facebook social">
+            <span class="fa fa-facebook"></span>
+        </a>
+        <img src="{{ base_path ~ directory }}/img/icons/social-search.svg" class="social">
+        <img src="{{ base_path ~ directory }}/img/icons/social-mail.svg" class="social">
+    </div>
+
+</div>
+
+<div id="page" >
+
+    {% if page.headline %}
+        <section id="headline">
+            <div class="container-fluid">
+                <nav class="navbar">
+                    {{ page.headline }}
+                </nav>
+            </div>
+        </section>
+    {% endif %}
+
+    <header id="header" >
+        <div class="container-fluid">
+            {{ page.header }}
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <div class="row">
+                <div id="content" class="col-md-9 col-sm-9 col-xs-12">
+
+                    {{ page.content }}
+
+                </div>
+                {% if page.sidebar %}
+                    <aside id="sidebar" class="sidebar col-md-3 col-sm-3 col-xs-12">
+                        {{ page.sidebar}}
+                    </aside>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+
+    <header id="fluid" >
+        <div class="container-fluid">
+            {{ page.fluid }}
+        </div>
+    </header>
+
+    {% if page.footer %}
+        <footer id="footer">
+            <div class="container-fluid">
+                {{ page.footer }}
+            </div>
+        </footer>
+    {% endif %}
+
+</div>

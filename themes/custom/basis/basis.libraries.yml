@@ -1,0 +1,14 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      includes/bootstrap/css/bootstrap.css: {}
+      css/style.css: {}
+      css/ccm.css: {}
+      css/font-awesome.css: {}
+      css/bootstrap-social.css: {}
+
+global-scripts:
+  version: VERSION
+  js:
+      includes/bootstrap/js/bootstrap.js: {}
