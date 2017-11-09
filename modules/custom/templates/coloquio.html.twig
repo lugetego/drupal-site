@@ -1,0 +1,36 @@
+
+<div class="row" style="background: #e6e6e6; padding-left: 10px; padding-right: 10px">
+<h3></h3>
+{% for evento in seminarios.evento %}
+    {{ evento.seminario }}<br>
+    <em>{{ evento.titulo }}</em><br>
+    <strong>{{ evento.ponente }}</strong> - <em>{{ evento.origen }}</em>
+{#    {% if evento.resumen %}
+        <p>{{ evento.resumen }}</p>
+    {% endif %}#}
+    {{ evento.fecha }} <br>
+    {{ evento.lugar }} <br>
+    {{ evento.hora }}
+    <hr>
+{% endfor %}
+</div>
+{#
+
+    <div class="row">
+        <div class="col-md-12">
+            {{ coloquio.evento.seminario }}
+            <h4>{{ coloquio.evento.titulo }}</h4>
+            <strong>{{ coloquio.evento.ponente }}</strong> - <em>{{ coloquio.evento.origen }}</em> <br>
+            {% if coloquio.evento.resumen %}
+                <div class="well-sm panel-primary">
+                    {{ coloquio.evento.resumen }}
+                </div>
+            {% endif %}
+            {{ coloquio.evento.fecha }} <br>
+            {{ coloquio.evento.lugar }} <br>
+            {{ coloquio.evento.hora }}
+        </div>
+    </div>
+    <div class="page-header"></div>
+
+#}
