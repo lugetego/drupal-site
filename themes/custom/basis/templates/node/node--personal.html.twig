@@ -95,7 +95,15 @@
                 <p><strong>CDMX: </strong>{{ node.field_telefono_cdmx_personal.value }}</p>
                 <p><strong>Extensión: </strong>{{ node.field_extension_personal.value }}</p>
                 <p><strong>Oficina: </strong>{{ node.field_oficina_personal.value }}</p>
-                <p><strong>Página personal: </strong>{{ node.field_pagina_personal.value }}</p>
+                {% if node.field_pagina_personal.0.uri is not null %}
+                <p><strong>Página personal: </strong><a href="{{ node.field_pagina_personal.0.uri }}" target="_blank">{{ node.field_pagina_personal.0.uri }}</a> </p>
+                {% endif %}
+
+
+
+
+
+
             </div>
 
         </div>
