@@ -7,10 +7,9 @@
     <strong>{{ evento.ponente }}</strong> - <em>{{ evento.origen }}</em>
 {#    {% if evento.resumen %}
         <p>{{ evento.resumen }}</p>
-    {% endif %}#}
-    {{ evento.fecha }} <br>
+    {% endif %} #}<br>
+    {{ evento.fecha }} - {{ evento.hora }}<br>
     {{ evento.lugar }} <br>
-    {{ evento.hora }}
     <hr>
 {% endfor %}
 </div>
