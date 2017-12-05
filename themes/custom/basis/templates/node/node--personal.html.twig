@@ -83,6 +83,9 @@
             </div>
             <br>
 
+
+
+
             <div class="col-md-4">
                 <img src="{{ file_url(node.field_foto_personal.entity.uri.value) }}" width="100%" />
             </div>
@@ -98,7 +101,9 @@
                 {% if node.field_pagina_personal.0.uri is not null %}
                 <p><strong>Página personal: </strong><a href="{{ node.field_pagina_personal.0.uri }}" target="_blank">{{ node.field_pagina_personal.0.uri }}</a> </p>
                 {% endif %}
-
+                {% if node.field_publicaciones_personal.0.uri is not null %}
+                    <p><strong>Publicaciones: </strong><a href="{{ node.field_publicaciones_personal.0.title }}" target="_blank">{{ node.field_publicaciones_personal.0.title }}</a> </p>
+                {% endif %}
 
 
 

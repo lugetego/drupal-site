@@ -1,17 +1,30 @@
 
 <div class="row" style="background: #e6e6e6; padding-left: 10px; padding-right: 10px">
 <h3></h3>
-{% for evento in seminarios.evento %}
-    {{ evento.seminario }}<br>
-    <em>{{ evento.titulo }}</em><br>
-    <strong>{{ evento.ponente }}</strong> - <em>{{ evento.origen }}</em>
-{#    {% if evento.resumen %}
-        <p>{{ evento.resumen }}</p>
-    {% endif %} #}<br>
-    {{ evento.fecha }} - {{ evento.hora }}<br>
-    {{ evento.lugar }} <br>
-    <hr>
-{% endfor %}
+
+{% if seminarios|length > 1 %}
+    {% for evento in seminarios.evento %}
+        {{ evento.seminario }}<br>
+        <em>{{ evento.titulo }}</em><br>
+        <strong>{{ evento.ponente }}</strong> - <em>{{ evento.origen }}</em>
+{#        {% if evento.resumen %}
+            <p>{{ evento.resumen }}</p>
+        {% endif %} #}<br>
+        {{ evento.fecha }} - {{ evento.hora }}<br>
+        {{ evento.lugar }} <br>
+        <hr>
+    {% endfor %}
+{% else %}
+        {{ seminarios.evento.seminario }}<br>
+        <em>{{ seminarios.evento.titulo }}</em><br>
+        <strong>{{ seminarios.evento.ponente }}</strong> - <em>{{ seminarios.evento.origen }}</em>
+        {# {% if seminarios.evento.resumen %}
+            <p>{{ seminarios.evento.resumen }}</p>
+        {% endif %} #}<br>
+        {{ seminarios.evento.fecha }} - {{ evento.hora }}<br>
+        {{ seminarios.evento.lugar }} <br>
+        <hr>
+{% endif %}
 </div>
 {#
 

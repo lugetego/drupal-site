@@ -54,6 +54,7 @@
 
 .navbar-brand {
     height: 95px;
+    padding: 10px;
 }
 
 .nav > li > a {

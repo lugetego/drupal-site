@@ -35,12 +35,19 @@
 <div class="personal">
     {{ fields.field_foto_personal.content }}
     <hr>
-    {{ fields.field_titulo_personal.content }} {{ fields.field_nombre_personal.content }}<br>
+
+    {#{{ fields.field_titulo_personal.content |render|striptags ~ fields.field_nombre_personal.content |render|striptags  }}#}
+
+
+
+    {{ fields.field_nombre_personal.content }}<br>
+
+ {#<a href="#">  {{ fields.field_titulo_personal.content }} {{ fields.field_titulo_personal.content|render|striptags  }} {{  fields.field_nombre_personal.content |render|striptags }}</a><br>#}
     {# <small>{{ fields.field_area_personal.content }}</small></p> #}
     {{ fields.field_correo_personal.content }}<i class="fa-at fa"></i>matmor.unam.mx <br>
-    Red UNAM.: {{ fields.field_extension_personal.content }}<br>
-    CDMX.: {{ fields.field_telefono_cdmx_personal.content }}<br>
     Morelia: {{ fields.field_telefono_personal.content }}<br>
+    CDMX: {{ fields.field_telefono_cdmx_personal.content }}<br>
+    Red UNAM: {{ fields.field_extension_personal.content }}<br>
     {# {{ fields.field_oficina_personal.content }} #}
 </div>
 
