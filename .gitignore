@@ -63,4 +63,5 @@ simetrias2017/
 ventanadiscreta/
 webpersonal/
 modules/contrib/
-matmor.sql.*
+*.sql
+software-tools-math/
