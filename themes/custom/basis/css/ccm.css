@@ -386,6 +386,12 @@ img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
     text-align: center;
 }
 
+@media only screen and (max-width: 400px) {
+    .logo {
+        height: 70%;
+    }
+}
+
 @media only screen and (max-width: 900px) {
     .convocatorias h1 {
         font-size: 20px;
