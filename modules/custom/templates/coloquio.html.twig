@@ -2,7 +2,7 @@
 <div class="row" style="background: #e6e6e6; padding-left: 10px; padding-right: 10px">
 <h3></h3>
 
-{% if seminarios|length > 1 %}
+{% if seminarios|length > 0 %}
     {% for evento in seminarios.evento %}
         {{ evento.seminario }}<br>
         <em>{{ evento.titulo }}</em><br>
@@ -15,6 +15,7 @@
         <hr>
     {% endfor %}
 {% else %}
+    {% if seminarios.evento.seminario %}
         {{ seminarios.evento.seminario }}<br>
         <em>{{ seminarios.evento.titulo }}</em><br>
         <strong>{{ seminarios.evento.ponente }}</strong> - <em>{{ seminarios.evento.origen }}</em>
@@ -24,7 +25,12 @@
         {{ seminarios.evento.fecha }} - {{ evento.hora }}<br>
         {{ seminarios.evento.lugar }} <br>
         <hr>
+   {% else %}
+      No hay seminarios esta semana. <br>
+      <hr>
+   {% endif %}    
 {% endif %}
+
 </div>
 {#
 

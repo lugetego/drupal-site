@@ -65,3 +65,5 @@ webpersonal/
 modules/contrib/
 *.sql
 software-tools-math/
+js_*
+css_*
