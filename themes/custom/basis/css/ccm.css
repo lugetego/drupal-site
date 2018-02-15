@@ -529,3 +529,11 @@ img, img.scale-with-grid { outline: 0; max-width: 100%; height: auto; }
 @media screen and (max-width: 640px){
     .hero h1 { font-size: 4em; }
 }
+
+/* Anteriores */
+.anteriores a {
+    padding-top: 5px;
+    font-size: 19px;
+    font-weight: bold;
+    color: #f56d61;
+}
