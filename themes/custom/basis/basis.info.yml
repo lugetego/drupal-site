@@ -1,7 +1,7 @@
 name: Basis
 type: theme
 base theme: false
-Description: "A modern & reponsive Drupal 8 CCM Theme"
+Description: "CCM Theme 2018"
 package: custom
 core: 8.x
 

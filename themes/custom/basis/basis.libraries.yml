@@ -12,3 +12,6 @@ global-scripts:
   version: VERSION
   js:
       includes/bootstrap/js/bootstrap.js: {}
+  dependencies:
+     - core/jquery
+     - core/jquery.once
