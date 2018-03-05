@@ -1,8 +1,9 @@
 
 <div class="row" style="background: #e6e6e6; padding-left: 10px; padding-right: 10px">
 <h3></h3>
+{# seminarios|length #}
 
-{% if seminarios|length > 0 %}
+{% if seminarios|length >= 1 %}
     {% for evento in seminarios.evento %}
         {{ evento.seminario }}<br>
         <em>{{ evento.titulo }}</em><br>

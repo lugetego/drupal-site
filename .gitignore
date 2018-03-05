@@ -61,9 +61,11 @@ preprints/
 programa-de-computo-cientifico/
 simetrias2017/
 ventanadiscreta/
+feria-matematica/
 webpersonal/
 modules/contrib/
 *.sql
 software-tools-math/
 js_*
 css_*
+*.old
