@@ -1,0 +1,57 @@
+.posgrado {
+    background-image: url('../img/pccm.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 400px;
+    padding-top: 20px;
+}
+
+.posgrado h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 140px;
+    color: white;
+    text-align: center;
+}
+
+.posgrado h3 {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.posgrado p {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.posgrado a {
+
+}
+
+.posgrado a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.posgrado a:focus, a:hover {*/
+    color: #23527c;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 900px) {
+    .posgrado h1 {
+        font-size: 20px;
+    }
+
+    .posgrado h3 {
+        font-size: 18px;
+    }
+
+}
+
